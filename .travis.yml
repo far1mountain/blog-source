@@ -18,7 +18,7 @@ install:
 
 script:
   # 运行hugo命令
-  - hugo
+  - hugo server --minify --theme book
 
 after_script:
   # 部署
