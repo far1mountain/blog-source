@@ -79,4 +79,4 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   BookServiceWorker = true
 
   [markup.goldmark.renderer]
-  unsafe = true
+  unsafe = false
